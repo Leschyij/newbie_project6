@@ -90,6 +90,7 @@ p {
     border-radius: 7px;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 #content button img {
@@ -99,6 +100,10 @@ p {
 #content button p {
     color: #fff;
     font-weight: 700;
+}
+
+#content button:hover {
+    background-color: hsl(212, 21%, 14%);
 }
 
 
